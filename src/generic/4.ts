@@ -5,8 +5,8 @@ interface IProps {
   title: string;
 }
 
-class Component<T> {
-  constructor(public props: T) {}
+class Component<IProps> {
+  constructor(public props: IProps) {}
 }
 
 class Page extends Component<IProps> {
