@@ -21,7 +21,5 @@ function isWeekend(day: WeekDays): boolean {
 */
 
 // ---------------------Arrow func type---------------
-const isWeekend = (day: WeekDays): boolean => {
-  if (day === WeekDays.SATURDAY || WeekDays.SUNDAY) true;
-  return false;
-};
+const isWeekend = (day: WeekDays): boolean =>
+  day === WeekDays.SATURDAY || day === WeekDays.SUNDAY;
